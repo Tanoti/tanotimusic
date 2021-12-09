@@ -1,0 +1,16 @@
+body {
+    background-color: white;
+    color: #4e027a;
+}
+
+.tm_divider {
+  height: 2rem;
+  background-color: rgba(74, 0, 120, 0.25);
+  border: solid rgba(74, 0, 120, .15);
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(74, 0, 120, .1), inset 0 .125em .5em rgba(74, 0, 120, .15);
+}
+
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
