@@ -26,6 +26,13 @@ a:hover {
     background-color: #735881;
 }
 
+.tm-divider-short {
+    height: 0.5rem;
+    background-color: #735881;
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
 .tm-icon {
     font-size: 2em;
 }
