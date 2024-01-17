@@ -1,5 +1,7 @@
 body {
-    background-color: white;
+    background-color: grey;
+    /*background-image: url('images/piano-bg.jpg');*/
+    /*background-repeat: no-repeat;*/
     color: #4e027a;
 }
 
@@ -13,13 +15,9 @@ a:hover {
     color: #e53d3d;
 }
 
-/*.tm_divider {*/
-/*    height: 2rem;*/
-/*    background-color: rgba(74, 0, 120, 0.66);*/
-/*    border: solid rgba(74, 0, 120, .15);*/
-/*    border-width: 1px 0;*/
-/*    box-shadow: inset 0 .5em 1.5em rgba(74, 0, 120, .1), inset 0 .125em .5em rgba(74, 0, 120, .15);*/
-/*}*/
+.tm-container {
+    background-color: white;
+}
 
 .tm_divider {
     height: 2rem;
