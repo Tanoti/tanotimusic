@@ -1,7 +1,6 @@
+/* Elements */
 body {
     background-color: white;
-    /*background-image: url('images/piano-bg.jpg');*/
-    /*background-repeat: no-repeat;*/
     color: #4e027a;
 }
 
@@ -15,19 +14,16 @@ a:hover {
     color: #e53d3d;
 }
 
+/* Classes */
 .tm-container {
     background-color: white;
-}
-
-.tm_divider {
-    height: 2rem;
-    background-color: #735881;
+    border-radius: .3rem;
+    margin-top: 2rem;
 }
 
 .tm-divider-short {
     height: 0.5rem;
     background-color: #735881;
-    width: 50%;
     margin-bottom: 1rem;
 }
 
@@ -39,4 +35,19 @@ a:hover {
   .rounded-lg-3 {
       border-radius: .3rem;
   }
+}
+
+/* Ids */
+#tm_background_image {
+    background-image: url("images/piano-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#tm_footer {
+    border-radius: .3rem;
+}
+
+#tm_footer a {
+    color: #939191;
 }
