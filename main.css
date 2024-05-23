@@ -2,19 +2,27 @@
 body {
     background-color: white;
     color: #4e027a;
-}
-
-a {
-    color: #4e027a;
-    text-decoration: none;
-    font-style: italic;
-}
-
-a:hover {
-    color: #e53d3d;
+    padding-top: 56px;
+    scroll-behavior: smooth;
 }
 
 /* Classes */
+.nav-link {
+    color: #4e027a;
+}
+
+.nav-link:hover {
+    color: #e53d3d;
+}
+
+.nav-pills > li > a.active {
+    background-color: #4e027a !important;
+}
+
+.nav-pills > li > a:visited {
+    color: #4e027a !important;
+}
+
 .tm-container {
     background-color: white;
     border-radius: .3rem;
@@ -30,6 +38,16 @@ a:hover {
 
 .tm-icon {
     font-size: 2em;
+}
+
+.tm-link {
+    color: #4e027a;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.tm-link:hover {
+    color: #e53d3d;
 }
 
 .tm-testimonial-title {
