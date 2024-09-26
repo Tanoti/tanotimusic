@@ -29,7 +29,10 @@ body {
 
 .tm-container {
     background-color: #17191c;
+    border-style: solid;
     border-radius: .5rem;
+    border-width: 3px;
+    border-color: #4e027a;
     margin-top: 2rem;
     opacity: 98%;
 }
@@ -85,6 +88,7 @@ body {
 
 #tm_footer {
     border-radius: .5rem;
+    background-color: #212529;
 }
 
 #tm_footer a {
