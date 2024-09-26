@@ -96,6 +96,7 @@ body {
 #tm_footer {
     border-radius: .5rem;
     background-color: #212529;
+    font-size: 0.8em;
 }
 
 #tm_footer a {
