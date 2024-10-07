@@ -1,14 +1,21 @@
 /* Elements */
 body {
-    background-color: white;
-    color: #4e027a;
+    background-color: #212529;
+    color: #a66bd7;
     padding-top: 56px;
     scroll-behavior: smooth;
 }
 
 /* Classes */
+.navbar {
+    background-color: #17191c;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: #4e027a;
+}
+
 .nav-link {
-    color: #4e027a;
+    color: #a599bd;
 }
 
 .nav-link:hover {
@@ -23,11 +30,18 @@ body {
     color: #4e027a !important;
 }
 
+.tm-logo {
+    width: 8rem;
+}
+
 .tm-container {
-    background-color: white;
-    border-radius: .3rem;
+    background-color: #17191c;
+    border-style: solid;
+    border-radius: .5rem;
+    border-width: 3px;
+    border-color: #4e027a;
     margin-top: 2rem;
-    opacity: 94%;
+    opacity: 98%;
 }
 
 .tm-divider-short {
@@ -41,7 +55,7 @@ body {
 }
 
 .tm-link {
-    color: #4e027a;
+    color: #a66bd7;
     text-decoration: none;
     font-style: italic;
 }
@@ -74,13 +88,15 @@ body {
 
 /* Ids */
 #tm_background_image {
-    background-image: url("images/piano-bg.jpg");
+    background-image: url("images/piano-bg-mono.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #tm_footer {
-    border-radius: .3rem;
+    border-radius: .5rem;
+    background-color: #212529;
+    font-size: 0.8em;
 }
 
 #tm_footer a {
