@@ -1,7 +1,7 @@
 /* Elements */
 body {
     background-color: #212529;
-    color: #9b63c7;
+    color: #a66bd7;
     padding-top: 56px;
     scroll-behavior: smooth;
 }
@@ -55,7 +55,7 @@ body {
 }
 
 .tm-link {
-    color: #9b63c7;
+    color: #a66bd7;
     text-decoration: none;
     font-style: italic;
 }
